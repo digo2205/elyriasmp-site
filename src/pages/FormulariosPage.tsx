@@ -13,12 +13,13 @@ export function FormulariosPage() {
       statusColor: "bg-green-100 text-green-800",
       requirements: [
         "Formulário aprovado pelos administradores;",
-        "13 anos ou mais."
+        "Convidar pelo menos 3 amigos;",
+        "14 anos ou mais."
       ]
     },
     {
-      title: "Formulário de Inscrição de Moderador",
-      description: "Formulário para tornar-se um moderador no servidor",
+      title: "Formulário de Inscrição de Staff",
+      description: "Formulário para tornar-se um staff no servidor",
       status: "Disponível",
       link: "https://forms.gle/1CghL7KTVyPJMTZ69",
       statusColor: "bg-green-100 text-green-800",
@@ -28,8 +29,8 @@ export function FormulariosPage() {
       ]
     },
     {
-      title: "Formulário de Inscrição de Elemental",
-      description: "Formulário para tornar-se um elemental (são como pets/ovos) no servidor",
+      title: "Formulário de Inscrição de Filhote",
+      description: "Formulário para tornar-se um filhote (ovo) no servidor",
       status: "Disponível",
       link: "https://forms.gle/B73qY4GDzAP9Kqxr6",
       statusColor: "bg-green-100 text-green-800",
@@ -56,7 +57,7 @@ export function FormulariosPage() {
         </header>
         <div className="space-y-6">
           <p className="text-gray-600">
-            Aqui você encontra os principais formulários de inscrição do Calamity. 
+            Aqui você encontra os formulários de inscrição do ElyriaSMP.
           </p>
           <Card className="p-4 bg-blue-50 border-blue-200">
             <p className="text-sm text-blue-800">

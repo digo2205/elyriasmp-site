@@ -7,18 +7,7 @@ export function ItensBanidosPage() {
     {
       category: "Itens Banidos",
       items: [
-        "Ender Manuscript",
-        "Ring of Invisibility",
-        "Ring of Undying",
-        "Ring of Regeneration",
-        "Ring of Speed",
-        "Ring of Hungerless",
-        "Ring of Knockback Resistance",
-        "Ring of Wither",
-        "Nuclear Bomb",
-        "Charms do Chromatic Return",
-        "Glyphs do Ars Nouveau (só pode utilizar os que a Ordem Solar dar para você)",
-        "Ring of Flight (somente Elementais)",
+        "indefinido",
       ]
     }
   ]
@@ -76,7 +65,7 @@ export function ItensBanidosPage() {
             <h4 className="font-semibold text-yellow-800 mb-2">Exceções e Casos Especiais</h4>
             <ul className="text-sm text-yellow-700 space-y-1">
               <li>• Alguns itens podem ser permitidos para eventos especiais</li>
-              <li>• Construções administrativas podem usar itens restritos</li>
+              <li>• Administradores e pessoas permitidas podem usar itens restritos</li>
               <li>• Sempre consulte a administração em caso de dúvida</li>
               <li>• A lista pode ser atualizada sem aviso prévio</li>
             </ul>

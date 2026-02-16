@@ -21,15 +21,11 @@ export function HistoriaPage() {
         </header>
         <div className="space-y-6">
           <div className="prose max-w-none">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">CalamitySMP - Lore Base</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">ElyriaSMP - Lore Base</h2>
             <p className="text-gray-700 mb-4">
-Há tempos no passado, uma explosão de fonte desconhecida mudou completamente o planeta. Agora, a Terra é um mundo mágico, um lugar que parece até um conto de fadas.
-
-Você é um dos poucos que sobreviveram a explosão, mas sua memória está incompleta. Restam apenas algumas memórias como: nome, idade, algumas breves lembranças de sua época (século XIX); agora estamos quase sem avanços tecnológicos no mundo, mesmo no século (XXXI).
-
-A humanidade renasceu em novas formas. Hoje, todos possuem afinidades mágicas — poderes herdados, instintivos, ligados a elementos ou sensações. A maior força organizada deste novo mundo é a Ordem Solar, instituição que ensina, protege e governa através da magia.
-
-Seu despertar não é comum. Você não conhece este mundo e não sabe o que aconteceu, só sabe que, despertou num lugar estranho, com alguns símbolos no chão, e velas (parece um ritual); também, uma pessoa desconhecida em sua frente.
+Elyria foi o primeiro mundo criado de forma planejada. Ele existe graças à interação de três forças fundamentais que sustentam a realidade. Elas não são deuses nem entidades conscientes, mas princípios que mantêm a realidade funcionando. Elyria foi feita com o propósito de ser um mundo perfeito, estável e equilibrado.
+Mas, mesmo com essas três forças unidas, ainda houve algumas falhas, e justamente dessas falhas surgiram os Fraturados.
+Os Fraturados são almas que ganharam uma segunda chance por causa de um erro no ciclo natural de morte. Não é uma ressurreição comum, mas uma reconstrução imperfeita, basicamente um novo corpo foi reconstruído ao redor de sua alma. Eles continuam sendo quem eram, mas, agora são como humanos. Não foram escolhidos nem amaldiçoados, são apenas a prova de que até mesmo o mundo "perfeito" pode errar.
             </p>
             <Card className="p-4 bg-amber-50 border-amber-200 mb-6">
               <p className="text-sm text-amber-800">

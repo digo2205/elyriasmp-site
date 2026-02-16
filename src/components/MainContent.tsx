@@ -12,7 +12,7 @@ export function MainContent() {
                 👋
               </div>
               <h1 className="text-3xl font-bold text-gray-900">
-                Bem-vindo(a) ao CalamitySMP!
+                Bem-vindo(a) ao ElyriaSMP!
               </h1>
             </div>
             <Button variant="outline" size="sm" className="gap-2">
@@ -23,7 +23,7 @@ export function MainContent() {
         </header>
         <div className="space-y-6">
           <p className="text-lg text-gray-700">
-            Seja bem-vindo(a) a documentação oficial do CalamitySMP!
+            Seja bem-vindo(a) a documentação oficial do ElyriaSMP!
           </p>
           <p className="text-gray-600">
             Esta documentação foi criada para a melhor visualização de informações, como 
@@ -39,7 +39,7 @@ export function MainContent() {
           </Card>
           <div className="space-y-4">
             <p className="text-sm text-blue-600">
-              CalamitySMP é desenvolvido e administrado pela LegionLabs. 
+              ElyriaSMP é desenvolvido e administrado pela LegionLabs. 
               <span className="inline-block ml-1">🔗</span>
             </p>
             <Card className="p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer">

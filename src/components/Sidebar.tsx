@@ -15,7 +15,7 @@ export function Sidebar({ mobile }: { mobile?: boolean }) {
   const location = useLocation()
 
   const menuItems = [
-    { icon: Home, label: 'Bem-vindo(a) ao CalamitySMP!', path: '/' },
+    { icon: Home, label: 'Bem-vindo(a) a Elyria!', path: '/' },
   ]
 
   const sections = [
@@ -26,7 +26,7 @@ export function Sidebar({ mobile }: { mobile?: boolean }) {
         { icon: ListCheck, label: 'Diretrizes', path: '/principal/diretrizes' },
         { icon: HelpCircle, label: 'FAQ', path: '/principal/faq' },
         { icon: BookMarked, label: 'Definições', path: '/principal/definicoes' },
-        { icon: UserPen, label: 'Regras/Dicas de Criação de Personagem', path: '/principal/criacao-de-personagem' },
+        { icon: UserPen, label: 'Dicas Personagem', path: '/principal/criacao-de-personagem' },
         { icon: Ban, label: 'Itens Banidos', path: '/principal/itens-banidos' },
         { icon: Hash, label: 'Redes Sociais', path: '/principal/redes-sociais' },
       ]

@@ -18,7 +18,7 @@ export function FAQPage() {
     },
     {
       question: "O SMP já começou?",
-      answer: "Não, começará entre novembro de 2025 e janeiro de 2026."
+      answer: "Não, começará entre março e abril de 2026."
     },
   ]
   return (

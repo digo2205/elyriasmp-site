@@ -16,7 +16,7 @@ export function RedesSociaisPage() {
     {
       name: "TikTok",
       description: "Nosso TikTok oficial, onde postamos vídeos curtos sobre o servidor, desde eventos, até momentos engraçados e interessantes.",
-      link: "https://www.tiktok.com/@calamitysmp.csmp",
+      link: "https://www.tiktok.com/",
       icon: <FaTiktok className="text-black w-7 h-7" />,
       color: "bg-indigo-50 border-indigo-200 text-indigo-800"
     },    
@@ -63,11 +63,6 @@ export function RedesSociaisPage() {
               </Card>
             ))}
           </div>
-          <Card className="p-4 bg-blue-50 border-blue-200">
-            <p className="text-sm text-blue-800">
-              <strong>Hashtags Oficiais:</strong> #CalamitySMP #CSMP
-            </p>
-          </Card>
           <div className="flex justify-between gap-4">
             <Link to="/principal/itens-banidos" className="flex-1">
               <Card className="p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer">

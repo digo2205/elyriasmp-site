@@ -14,17 +14,17 @@ export function WelcomePage() {
 </div>
 
               <h1 className="text-3xl font-bold text-gray-900">
-                Bem-vindo(a) ao CalamitySMP!
+                Bem-vindo(a) ao ElyriaSMP!
               </h1>
             </div>
           </div>
         </header>
         <div className="space-y-6">
           <p className="text-lg text-gray-700">
-            Seja bem-vindo(a) a documentação oficial do CalamitySMP!
+            Seja bem-vindo(a) ao site oficial do ElyriaSMP!
           </p>
           <p className="text-gray-600">
-            Esta documentação foi criada para a melhor visualização de informações, como 
+            Esta documentação/site foi criada para a melhor visualização de informações, como 
             lore, regras, etc.
           </p>
           <Card className="p-4 bg-blue-50 border-blue-200">
@@ -37,7 +37,7 @@ export function WelcomePage() {
           </Card>
           <div className="space-y-4">
             <p className="text-sm text-blue-600">
-              CalamitySMP é desenvolvido e administrado pela LegionLabs. 
+              ElyriaSMP é desenvolvido e administrado pela LegionLabs. 
             </p>
             <Link to="/principal/lore">
               <Card className="p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer">

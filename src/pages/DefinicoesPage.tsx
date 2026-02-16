@@ -37,16 +37,6 @@ export function DefinicoesPage() {
           </div>
         </header>
         <div className="space-y-6">
-          <Card className="p-4 bg-blue-50 border-blue-200">
-            <div className="flex items-start gap-3">
-              <AlertCircle className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
-              <div className="text-sm text-blue-800">
-                <p className="font-semibold mb-1">O que é Hard-RP?</p>
-                <p>Hard Roleplay é um estilo de jogo onde os jogadores devem manter-se rigorosamente 
-                em personagem, respeitando as limitações realistas e consequências de suas ações. Resumidamente, RP-ON o tempo inteiro.</p>
-              </div>
-            </div>
-          </Card>
           <div className="prose max-w-none">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Princípios Fundamentais</h2>
             <div className="space-y-4">
@@ -58,7 +48,7 @@ export function DefinicoesPage() {
 
                 <p className="text-gray-700">
                   Você deve pensar, agir e reagir como seu personagem faria, não como você faria. 
-                  Considere a personalidade, história e limitações do seu personagem. Tente manter o roleplay ativo o tempo inteiro (hard-rp).
+                  Considere a personalidade, história e limitações do seu personagem. Mantenha o roleplay ativo o tempo inteiro (hard-rp).
                 </p>
               </Card>
               <Card className="p-4">
@@ -80,13 +70,13 @@ export function DefinicoesPage() {
 
 
                 <p className="text-gray-700">
-                  Matar jogadores, pets, semelhantes sem motivo aparente na lore, é considerado uma prática "chata" e desrespeitosa.
+                  Matar jogadores, filhotes, semelhantes sem motivo aparente na lore, é considerado uma prática "chata" e desrespeitosa, portanto, proibida.
                 </p>
               </Card>
               <Card className="p-4">
                 <div className="flex items-center gap-2 mb-2">
   <Ban className="w-5 h-5 text-gray-900" />
-  <h3 className="text-lg font-semibold text-gray-900">Sem Informações OOC (Metagaming)</h3>
+  <h3 className="text-lg font-semibold text-gray-900">Sem Informações Externas (Metagaming)</h3>
 </div>
 
                 <p className="text-gray-700">
@@ -95,46 +85,7 @@ export function DefinicoesPage() {
                 </p>
               </Card>
             </div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Exemplos Práticos</h2>
-            <div className="space-y-4">
-              {examples.map((example, index) => (
-                <Card key={index} className={`p-4 ${example.color}`}>
-                  <div className="flex items-start gap-3">
-                    <example.icon className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-semibold mb-2">{example.title}</h4>
-                      <p className="text-sm mb-2"><strong>Situação:</strong> {example.scenario}</p>
-                      <p className="text-sm"><strong>Ação:</strong> {example.action}</p>
-                    </div>
-                  </div>
-                </Card>
-              ))}
-            </div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Regras Específicas</h2>
-            <div className="bg-gray-50 p-4 rounded-lg">
-              <ul className="space-y-2 text-gray-700">
-                <li><strong>Fear RP:</strong> Seu personagem deve demonstrar medo em situações perigosas</li>
-                <li><strong>Memory RP:</strong> Personagens podem esquecer eventos</li>
-                <li><strong>Aging RP:</strong> Personagens envelhecem e suas personalidades mudam</li>
-                <li><strong>Hard RP:</strong> Seguir o roleplay o tempo todo</li>
-                <li><strong>Random Death Match (RDM):</strong> Matar jogadores sem motivo aparente</li>
-                <li><strong>Metagaming:</strong> Usar conhecimentos externos dentro do jogo</li>
-              </ul>
-            </div>
           </div>
-          <Card className="p-4 bg-amber-50 border-amber-200">
-            <div className="flex items-center gap-2 mb-2">
-  <TriangleAlert className="w-5 h-5 text-amber-800" />
-  <h4 className="font-semibold text-amber-800">Violações Comuns</h4>
-</div>
-
-            <ul className="text-sm text-amber-700 space-y-1">
-              <li>• Usar informações OOC no roleplay</li>
-              <li>• Quebrar o personagem para fazer piadas</li>
-              <li>• Não demonstrar medo em situações perigosas</li>
-              <li>• Tentar "ganhar" todas as situações</li>
-            </ul>
-          </Card>
           <div className="flex justify-between gap-4">
             <Link to="/principal/faq" className="flex-1">
               <Card className="p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer">

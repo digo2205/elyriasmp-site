@@ -5,37 +5,68 @@ import { Link } from 'react-router-dom'
 export function CriacaoPersonagemPage() {
   const characterSteps = [
     {
-      title: "1. Identidade",
-      description: "Defina quem é seu personagem",
-      icon: <User className="w-5 h-5 text-blue-600" />,
+      title: "Como seu personagem age?",
+      description: "Como ele interage? O que ele faria em determinados momentos",
       tips: [
-        "Qual é o nome do seu personagem? (considere utilizar nomes antigos como, Dante, Isabela, etc)",
-        "Qual é a origem do seu personagem? (lembre-se que a história se passa na Inglaterra)",
-        "O que ele era antes da explosão?"
+        "Ele age com controle ou por impulso?",
+        "Ele prefere analisar antes de agir?",
+        "Ele tenta resolver tudo sozinho?",
+        "Ele evita conflitos ou enfrenta?",
+        "Ele mantém calma quando algo sai do esperado?",
+        "Como ele interage com as pessoas?",
+        "Seu personagem é amigável?"
       ]
     },
     {
-      title: "2. História",
-      description: "Desenvolva a história do seu personagem",
-      icon: <NotebookPen className="w-5 h-5 text-blue-600" />,
+      title: "Como seu personagem vê o mundo?",
+      description: "Ele vê como um desafio, ou como um jogo",
       tips: [
-        "O que ele fazia para viver?",
-        "Como era sua vida?",
-        "Tinha família ou amigos?",
-        "Como são suas memórias SUPERFICIAIS do passado? (lembre-se que você não lembra das pessoas que conhecia antes da explosão, apenas de fatos gerais)",
+        "Ele vê Elyria como algo estável?",
+        "Ele confia mais na lógica, na ciência, ou na magia?",
+        "Ele acredita que o mundo é justo?"
       ]
     },
     {
-      title: "3. Personalidade",
-      description: "Descreva a personalidade",
+      title: "Quais são as qualidades e defeitos do seu personagem?",
+      description: "Qualidades e defeitos do seu personagem",
       icon: <UserRoundSearch className="w-5 h-5 text-blue-600" />,
       tips: [
-        "Como sua forma de pensar do século XIX pode entrar em conflito com a atualidade mágica?",
-        "Você é mais curioso ou cauteloso diante de um mundo novo?",
-        "Quais são suas virtudes e defeitos?",
-        "Quais medos e fobias você tem?",
-        "Quais eram seus hobbies e interesses?",
-        "Mantém valores antigos (honra, fé, tradição) ou está disposto a mudar?"
+        "Ele é bom no que? E ruim em que?",
+        "O que nele pode ser visto como algo ruim?"
+      ]
+    },
+        {
+      title: "Como é a personalidade do seu personagem?",
+      description: "Descreva a personalidade de seu personagem",
+      icon: <UserRoundSearch className="w-5 h-5 text-blue-600" />,
+      tips: [
+        "Introvertido ou extrovertido?",
+        "Metódico ou espontâneo?",
+        "Pragmático ou idealista?",
+        "Calmo ou ansioso?",
+        "Tem fé, esperança?"
+      ]
+    },
+            {
+      title: "Quais são os gostos e desgostos do seu personagem?",
+      description: "O que ele gosta, ou desgosta",
+      icon: <UserRoundSearch className="w-5 h-5 text-blue-600" />,
+      tips: [
+        "Perfeição ou imperfeição?",
+        "Caos ou tranquilidade?",
+        "Silêncio ou barulho?",
+        "Gosta do que?",
+        "Quais são seus interesses ou hobbies?"
+      ]
+    },
+                {
+      title: "Quais são os medos/fobias do seu personagem?",
+      description: "Do que ele tem medo, ou fobia",
+      icon: <UserRoundSearch className="w-5 h-5 text-blue-600" />,
+      tips: [
+        "Medo algo maior?",
+        "Medo de ser esquecido?",
+        "Fobias do que? De insetos? Alturas?"
       ]
     }
   ]
@@ -49,7 +80,7 @@ export function CriacaoPersonagemPage() {
   <UserPen className="w-5 h-5 text-gray-600" />
 </div>
               <h1 className="text-3xl font-bold text-gray-900">
-                Regras/Dicas de Criação de Personagem
+                Dicas de Criação de Personagem
               </h1>
             </div>
           </div>
@@ -57,24 +88,12 @@ export function CriacaoPersonagemPage() {
         <div className="space-y-6">
           <p className="text-gray-600">
             Criar um personagem envolvente é essencial para uma boa experiência de roleplay. 
-            Siga este guia para desenvolver um personagem memorável e coerente com o mundo do CalamitySMP.
+            Siga este guia para desenvolver um personagem memorável e coerente com o mundo de Elyria.
           </p>
-          <Card className="p-4 bg-blue-50 border-blue-200">
-            <div className="flex items-start gap-3">
-              <Lightbulb className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
-              <div className="text-sm text-blue-800">
-                <p className="font-semibold mb-1">Dica Importante</p>
-                <p>Lembre-se que sua história deve contar como era sua vida em 1815 e deve se passar na Inglaterra, até o momento da explosão de mana.</p>
-              </div>
-            </div>
-          </Card>
           <div className="space-y-6">
             {characterSteps.map((step, index) => (
               <Card key={index} className="p-6">
                 <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    {step.icon}
-                  </div>
                   <div className="flex-1">
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">{step.title}</h3>
                     <p className="text-gray-600 mb-3">{step.description}</p>
@@ -102,23 +121,8 @@ export function CriacaoPersonagemPage() {
 
             <ul className="text-sm text-amber-700 space-y-2">
               <li>• <strong>Personagens "perfeitos":</strong> Todo mundo tem defeitos e limitações</li>
-              <li>• <strong>Histórias muito trágicas:</strong> Equilibre drama com esperança</li>
-              <li>• <strong>Personalidades extremas:</strong> Pessoas reais são complexas</li>
+              <li>• <strong>Personalidades extremas:</strong> Pessoas reais são complexas, não extremas</li>
             </ul>
-          </Card>
-          <Card className="p-4 bg-green-50 border-green-200">
-            <h4 className="font-semibold text-green-800 mb-2 flex items-center gap-2">
-  <Check className="w-5 h-5" />
-  Checklist Final
-</h4>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm text-green-700">
-              <div>□ Nome e idade definidos</div>
-              <div>□ Se passa em 1815 ou até 23 anos antes e na Inglaterra</div>
-              <div>□ História pessoal coerente</div>
-              <div>□ Personalidade balanceada</div>
-              <div>□ Motivações claras</div>
-            </div>
           </Card>
           <div className="flex justify-between gap-4">
             <Link to="/principal/definicoes" className="flex-1">

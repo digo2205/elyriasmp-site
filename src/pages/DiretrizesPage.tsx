@@ -146,63 +146,51 @@ export function DiretrizesPage() {
                 <div className="border-l-4 border-blue-500 pl-4">
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">1. Hard-RP</h3>
                 <p className="text-gray-700">
-                  Siga o roleplay o tempo em que você estiver on-line no servidor, isso significa que, você não vai "gerar" conhecimento, por exemplo: aprender "magicamente" a como fazer um ritual absurdamente complexo; você terá de estudar para aprender a fazer as coisas dentro do servidor.
+                  Siga o roleplay o tempo todo, independente das circustâncias.
                 </p>
               </div>   
                 <div className="border-l-4 border-blue-500 pl-4">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">2. Anti-RP</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">2. Interpretação</h3>
                 <p className="text-gray-700">
-                  Não saia do roleplay em momentos de roleplay.
-                </p>
-              </div>  
-                <div className="border-l-4 border-blue-500 pl-4">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">3. Interpretação</h3>
-                <p className="text-gray-700">
-                  Se você criou um personagem, você deve interpretá-lo, mesmo que pareça vergonha alheia.
+                  Se você criou um personagem, você deve interpretá-lo da forma que ele é ou age.
                 </p>
               </div>     
                 <div className="border-l-4 border-blue-500 pl-4">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">4. Off-RP</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">3. Metagaming</h3>
                 <p className="text-gray-700">
-                  Em momentos onde não há nada acontecendo no RP, e você esteja em um local privado com amigos, é permitido sim acontecer uma resenha fora do roleplay (RP), mas ainda sim, você não pode "gerar" conhecimento; caso alguém apareça falando algo sobre a lore ou algo aconteça no roleplay todos devem voltar imediatamente ao personagem.
-                </p>
-              </div>   
-                <div className="border-l-4 border-blue-500 pl-4">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">5. Metagaming</h3>
-                <p className="text-gray-700">
-                  Na "vida real" não é possível gerar conhecimento, aqui, também não, mesmo em momentos de resenha, caso você seja pego fazendo isso, poderá resultar em uma punição grave; resumindo, você deve usar conhecimento que você conseguiu jogando.
+                  Não utilize informações externas dentro do roleplay e nem conte sobre o roleplay fora, exemplo: "mandaram o nome de uma entidade no chat geral do Discord, eu sei, mas meu personagem não" ou "estou numa chamada com um amigo, não posso falar informações do roleplay para ele"
                 </p>
               </div>    
                 <div className="border-l-4 border-blue-500 pl-4">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">6. Calls</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">4. Calls</h3>
                 <p className="text-gray-700">
-                  Evite ficar em chamadas externas, tente ficar o máximo possível imerso no seu roleplay.
+                  Evite ficar em chamadas, tente ficar o máximo possível imerso no seu roleplay.
                 </p>
               </div> 
                 <div className="border-l-4 border-blue-500 pl-4">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">7. Random Death Match (RDM)</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">5. Random Death Match (RDM)</h3>
                 <p className="text-gray-700">
                   Não mate jogadores, ou semelhantes sem razão aparente na lore.
                 </p>
+                </div>
+              <div className="border-l-4 border-blue-500 pl-4">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">6. Filhotes</h3>
+                <p className="text-gray-700">
+                  Mesmo que não seja seu filho, não o distrate, lembre-se que todos eles tem apenas três vidas, não seja maldoso(a) com eles.
+                </p>
               </div>           
                 <div className="border-l-4 border-blue-500 pl-4">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">8. Autonomia</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">7. Autonomia</h3>
                 <p className="text-gray-700">
                   Na vida real você não chama um "administrador" para resolver seus problemas, o mesmo vale aqui, se precisar de algo, abra um ticket de atendimento em nosso servidor do Discord.
                 </p>
               </div>         
                 <div className="border-l-4 border-blue-500 pl-4">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">9. Preservação</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">8. Preservação</h3>
                 <p className="text-gray-700">
                   Mesmo em um ambiente onde a morte não é definitiva, a vida continua sendo algo precioso. Tratar a própria existência com descuido, se jogando em perigo sem motivo ou ignorando o instinto de sobrevivência, demonstra falta de respeito às regras do mundo.
                 </p>
-              </div>   
-                <div className="border-l-4 border-blue-500 pl-4">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">10. Chat</h3>
-                <p className="text-gray-700">
-                  O chat do jogo também é on-roleplay, mas, evite usá-lo.
-                </p>
-              </div>                                                                                                                 
+              </div>                                                                                                                  
               </div>
                 <div className="space-y-4">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Diretrizes do Minecraft</h2>
@@ -215,13 +203,13 @@ export function DiretrizesPage() {
                 <div className="border-l-4 border-blue-500 pl-4">
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">2. Construções</h3>
                 <p className="text-gray-700">
-                  Evite destruir construções, sejam pertencentes a lore ou a outros jogadores.
+                  Não destrua construções que sejam pertencentes a lore ou a outros jogadores.
                 </p>
               </div>  
                 <div className="border-l-4 border-blue-500 pl-4">
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">3. Roubo</h3>
                 <p className="text-gray-700">
-                  Evite roubar outros jogadores.
+                  Não roube lápides de jogadores, entidades ou mesmo as casas dos jogadores.
                 </p>
               </div>     
                 <div className="border-l-4 border-blue-500 pl-4">
@@ -239,50 +227,35 @@ export function DiretrizesPage() {
                 <div className="border-l-4 border-blue-500 pl-4">
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">6. Waystones</h3>
                 <p className="text-gray-700">
-                  Não use barcos, ou qualquer outro bug para teletransportar mais de um jogador entre os obeliscos.
+                  Não use barcos, ou qualquer outro bug para teletransportar mais de um jogador entre as waystones.
                 </p>
-              </div> 
+              </div>        
                 <div className="border-l-4 border-blue-500 pl-4">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">7. Elementais</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">7. Inatividade</h3>
                 <p className="text-gray-700">
-                  Mesmo que não seja seu, não o distrate, lembre-se que todos eles tem apenas duas vidas, não seja maldoso(a) com eles.
-                </p>
-              </div>           
-                <div className="border-l-4 border-blue-500 pl-4">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">8. Inatividade</h3>
-                <p className="text-gray-700">
-                  Se passar mais de duas semanas sem entrar no servidor, você será automaticamente desclassificado e todo o seu progresso e lore serão apagados; na lore seu personagem será dado como morto e você terá de criar um novo com outra história, personalidade e nome. Se você precisar ficar inativo por mais de duas semanas, independente do motivo, abra um ticket de atendimento em nosso servidor e avise nossa moderação.
+                  Se passar mais de cinco dias sem entrar no servidor, você será automaticamente desclassificado e todo o seu progresso e lore serão apagados; na lore seu personagem será dado como morto e você terá de criar um novo com outra história, personalidade e nome. Se você precisar ficar inativo por mais de cinco dias, independente do motivo, avise no canal ausência em nosso servidor do Discord.
                 </p>
               </div>         
                 <div className="border-l-4 border-blue-500 pl-4">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">9. Vida</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">8. Vida</h3>
                 <p className="text-gray-700">
                   Não ultrapasse quarenta corações de vida.
                 </p>
               </div>   
                 <div className="border-l-4 border-blue-500 pl-4">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">10. "Abuso"</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">9. "Abuso"</h3>
                 <p className="text-gray-700">
-                  Não use bugs ao seu favor ou tente descobrir a identidade dos pets ou moderadores/administradores; e se descobrir a identidade, guarde para você, não espalhe.
+                  Não use bugs ao seu favor ou tente descobrir a identidade dos filhotes ou moderadores/administradores; e se descobrir a identidade, guarde para você, não espalhe.
                 </p>
               </div>    
                 <div className="border-l-4 border-blue-500 pl-4">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">11. Placas & Livros</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">10. Placas & Livros</h3>
                 <p className="text-gray-700">
                   Não edite placas ou livros pertencentes a lore; também evite deixar muitas placas por aí.
                 </p>
               </div>                                                                                                                                  
               </div>              
-            
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Punições</h2>
-            <div className="bg-gray-50 p-4 rounded-lg">
-              <ul className="space-y-2 text-gray-700">
-                <li><strong>Advertência:</strong> É geralmente utilizada antes de uma punição real, utilizadas normalmente para infrações leves.</li>
-                <li><strong>Kick:</strong> Utilizada normalmente para infrações moderadas.</li>
-                <li><strong>Banimento Temporário:</strong> Normalmente utilizada para infrações graves (12 horas - 30 dias).</li>
-                <li><strong>Banimento Permanente:</strong> Utilizada geralmente para infrações graves ou gravíssimas.</li>
-              </ul>
-            </div>
+          
           </div>
           <div className="flex justify-between gap-4">
             <Link to="/principal/lore" className="flex-1">
